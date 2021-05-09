@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Altiora Peto | Altiora Peto</title><meta name="author" content="Silvia Lv"><meta name="copyright" content="Silvia Lv"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="背景知识lpk.dll文件是一个系统文件位于C:\WINDOWS\system32和C:WINDOWS\system\dllcache目录下，当exe文件运行时会动态调用这个系统文件。由于windows2000开始微软强制操作系统的加载程序首先从应用程序目录中加载模块，只有当加载程序无法在应用程序目录中找到文件，才搜索其他目录。利用系统的这个特性，就可以伪造一个lpk.dll使程序加载替换原本应加">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Altiora Peto">
+<meta property="og:url" content="http://example.com/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/3601.exe/index.html">
+<meta property="og:site_name" content="Altiora Peto">
+<meta property="og:description" content="背景知识lpk.dll文件是一个系统文件位于C:\WINDOWS\system32和C:WINDOWS\system\dllcache目录下，当exe文件运行时会动态调用这个系统文件。由于windows2000开始微软强制操作系统的加载程序首先从应用程序目录中加载模块，只有当加载程序无法在应用程序目录中找到文件，才搜索其他目录。利用系统的这个特性，就可以伪造一个lpk.dll使程序加载替换原本应加">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
+<meta property="article:published_time" content="2021-05-09T08:27:59.000Z">
+<meta property="article:modified_time" content="2021-03-12T02:54:21.895Z">
+<meta property="article:author" content="Silvia Lv">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/3601.exe/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Altiora Peto',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-03-12 10:54:21'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Altiora Peto" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a></div></div></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Altiora Peto</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">无题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-05-09T08:27:59.000Z" title="发表于 2021-05-09 16:27:59">2021-05-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-03-12T02:54:21.895Z" title="更新于 2021-03-12 10:54:21">2021-03-12</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="背景知识"><a href="#背景知识" class="headerlink" title="背景知识"></a>背景知识</h1><p>lpk.dll文件是一个系统文件位于C:\WINDOWS\system32和C:WINDOWS\system\dllcache目录下，当exe文件运行时会动态调用这个系统文件。<br>由于windows2000开始微软强制操作系统的加载程序首先从应用程序目录中加载模块，只有当加载程序无法在应用程序目录中找到文件，才搜索其他目录。利用系统的这个特性，就可以伪造一个lpk.dll使程序加载替换原本应加载的系统的lpk.dll。这一行为称为lpk.dll劫持。</p>
+<p>“LPK劫持者”病毒运行将在<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E5%A4%B9/5328647">系统文件夹</a>内施放一个<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%9B%97%E5%8F%B7%E6%9C%A8%E9%A9%AC/9755059">盗号木马</a>，修改注册表，该病毒会搜索所有含有<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/exe%E6%96%87%E4%BB%B6/6651377">exe文件</a>的文件夹以及rar压缩<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%96%87%E4%BB%B6">文件</a>，然后进行自我<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%A4%8D%E5%88%B6">复制</a>，进行大范围传播，另外，该病毒还将感染部分html文件和<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/js%E8%84%9A%E6%9C%AC/7439222">js脚本</a>，使其指向<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E9%BB%91%E5%AE%A2/118396">黑客</a>指定的挂马网站。最后，该病毒还将恶意代码注入windows进程中，以实现监听用户电脑的目的。用户一旦中毒，将被下载大量<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%9C%A8%E9%A9%AC%E7%97%85%E6%AF%92/333298">木马病毒</a>，还要面临<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%99%9A%E6%8B%9F%E8%B4%A2%E4%BA%A7/3602187">虚拟财产</a>被盗、隐私信息泄露等威胁.</p>
+<h1 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h1><ul>
+<li><p>文件信息：</p>
+<p>  文件: C:\Users\15PB\Desktop\3601.exe<br>  大小: 24576 bytes<br>  文件版本:7.02.2600.5512 (xpsp.080413-0852)<br>  修改时间: 2015年9月29日, 13:10:48<br>  MD5: B5752252B34A8AF470DB1830CC48504D<br>  SHA1: AEC38ADD0AAC1BC59BFAAF1E43DBDAB10E13DB18<br>  CRC32: 4EDB317F</p>
+</li>
+<li><p>病毒情报：</p>
+<p>  <img src="/images/image-20210311083748409.png" alt="image-20210311083748409"></p>
+</li>
+<li><p>查壳脱壳</p>
+<p>  <img src="/images/image-20210311090104732.png" alt="image-20210311090104732"></p>
+<p>  综上可知：</p>
+<ul>
+<li>本文件为恶意文件，属于Notol家族且资源中含有另一个Pe文件。</li>
+<li>文件含UPX壳，脱壳后可知编译器为VC6.0</li>
+</ul>
+<h1 id="行为分析"><a href="#行为分析" class="headerlink" title="行为分析"></a>行为分析</h1></li>
+<li><p>进程信息：</p>
+<p>  <img src="/images/image-20210311102243333.png" alt="image-20210311102243333"></p>
+<p>  <img src="/images/image-20210311102534734.png" alt="image-20210311102534734"></p>
+</li>
+<li><p>注册表信息</p>
+<p>  <img src="/images/image-20210311110305942.png" alt="image-20210311110305942"></p>
+</li>
+<li><p>文件信息</p>
+<p>  <img src="/images/image-20210311110747124.png" alt="image-20210311110747124"></p>
+</li>
+<li><p>网络连接</p>
+<p>  <img src="/images/image-20210311111021772.png" alt="image-20210311111021772"></p>
+</li>
+<li><p>行为操作</p>
+<p>  <img src="/images/image-20210311111133333.png" alt="image-20210311111133333"></p>
+</li>
+<li><p>执行操作</p>
+<p>  <img src="/images/image-20210311112534814.png" alt="image-20210311112534814"></p>
+<p>  综上可知：</p>
+<ul>
+<li>3601.exe运行后在系统目录下创建了gsioou.exe文件后在命令行模式下隐式自我删除；</li>
+<li>gsioou.exe运行后释放hra33.dll文件，然后在各个目录下释放lpk.dll文件并将该文件设为隐藏，并不断在命令行模式下执行rar查找压缩包中是否含有lpk.dll，若存在则将其替换；</li>
+</ul>
+</li>
+</ul>
+<h1 id="3-具体分析"><a href="#3-具体分析" class="headerlink" title="3. 具体分析"></a>3. 具体分析</h1><h2 id="3-1-分析3601-exe"><a href="#3-1-分析3601-exe" class="headerlink" title="3.1 分析3601.exe"></a>3.1 分析3601.exe</h2><h3 id="3-1-1-主函数"><a href="#3-1-1-主函数" class="headerlink" title="3.1.1 主函数"></a>3.1.1 主函数</h3><p><img src="/images/image-20210311135038688.png" alt="image-20210311135038688"></p>
+<p>从主函数的伪代码可以看出初始化完WinSock后进行了一个逻辑判断，具体分析完后可知这是在判断当前环境中Ghijkl Nopqrstu Wxy服务是否注册，若已注册则启动该服务。</p>
+<p><img src="/images/image-20210311141706760.png" alt="image-20210311141706760"></p>
+<p><img src="/images/image-20210311141810795.png" alt="image-20210311141810795"></p>
+<p><img src="/images/image-20210311142107538.png" alt="image-20210311142107538"></p>
+<p><img src="/images/image-20210311142752866.png" alt="image-20210311142752866"></p>
+<p><img src="/images/image-20210311143113881.png" alt="image-20210311143113881"></p>
+<p><img src="/images/image-20210311143804962.png" alt="image-20210311143804962"></p>
+<p><img src="/images/image-20210311144415230.png" alt="image-20210311144415230"></p>
+<p><img src="/images/image-20210311144300592.png" alt="image-20210311144300592"></p>
+<p>综上可知：</p>
+<p>​    3601.exe运行后首先检测Ghijkl Nopqrstu Wxy服务是否在已注册，未注册则判断当前文件是否在系统目录下，不在则在系统目录下创建一个名为yssbii.exe拷贝。将Ghijkl Nopqrstu Wxy添加到注册表后删除自身并退出进程。</p>
+<h2 id="3-2-分析-yssbii-exe"><a href="#3-2-分析-yssbii-exe" class="headerlink" title="3.2 分析 yssbii.exe"></a>3.2 分析 yssbii.exe</h2><p>确认Ghijkl Nopqrstu Wxy服务已注册则等待分发服务，分析该服务的回调函数</p>
+<p><img src="/images/image-20210311145324715.png" alt="image-20210311145324715"></p>
+<p>本病毒的主要行为都在这个服务回调函数中,需要仔细分析。</p>
+<p><img src="/images/image-20210311151047510.png" alt="image-20210311151047510"></p>
+<h4 id="1-分离出资源文件命名为hra33-dll"><a href="#1-分离出资源文件命名为hra33-dll" class="headerlink" title="1. 分离出资源文件命名为hra33.dll"></a>1. 分离出资源文件命名为hra33.dll</h4><p><img src="/images/image-20210311153717842.png" alt="image-20210311153717842"></p>
+<h4 id="2-将病毒添加到hra33-dll资源中"><a href="#2-将病毒添加到hra33-dll资源中" class="headerlink" title="2. 将病毒添加到hra33.dll资源中"></a>2. 将病毒添加到hra33.dll资源中</h4><p><img src="/images/image-20210311155615411.png" alt="image-20210311155615411"></p>
+<h4 id="3-加载hra33-dll"><a href="#3-加载hra33-dll" class="headerlink" title="3. 加载hra33.dll"></a>3. 加载hra33.dll</h4><p><img src="/images/image-20210311155713465.png" alt="image-20210311155713465"></p>
+<h4 id="4-创建线程通过爆破IPC弱口令传播病毒"><a href="#4-创建线程通过爆破IPC弱口令传播病毒" class="headerlink" title="4. 创建线程通过爆破IPC弱口令传播病毒"></a>4. 创建线程通过爆破IPC弱口令传播病毒</h4><p><img src="/images/image-20210311160554495.png" alt="image-20210311160554495"></p>
+<p><img src="/images/image-20210311160710674.png" alt="image-20210311160710674"></p>
+<p>若通过IPC传播的病毒会被保存在各磁盘根目录下名为：glfd.exe以及系统目录下名为：NewArean.exe。此处可为查杀提供思路。</p>
+<h4 id="5-创建线程连接远程服务器发送信息并接收命令"><a href="#5-创建线程连接远程服务器发送信息并接收命令" class="headerlink" title="5. 创建线程连接远程服务器发送信息并接收命令"></a>5. 创建线程连接远程服务器发送信息并接收命令</h4><p><img src="/images/image-20210311190634072.png" alt="image-20210311190634072"></p>
+<p><img src="/images/image-20210311191808656.png" alt="image-20210311191808656"></p>
+<p><img src="/images/image-20210311161452154.png" alt="image-20210311161452154"></p>
+<p>经分析远程连接的三台服务器域名分别为：</p>
+<ul>
+<li>sbcq.f3322.org:9898</li>
+<li>520123.xyz:9999</li>
+<li>520520520.org:9426</li>
+</ul>
+<p>这三个域名目前仅520520520.org还可解析，解析后ip为34.98.99.30。</p>
+<p>综上可知：</p>
+<p>​    3601.exe随机生成了一个xxxxxx.exe病毒拷贝，该病毒拷贝从资源中释放hra33.dll文件，并将自身隐藏在其资源中然后加载hra33.dll。创建一个线程用于通过自带的字典爆破IPC弱口令，在局域网中传播病毒。创建三个线程用于连接三台远程服务器并接收远程指令执行如DDos攻击、用IE浏览器打开网页、弹窗、更新文件等。</p>
+<h2 id="3-3分析hra33-dll"><a href="#3-3分析hra33-dll" class="headerlink" title="3.3分析hra33.dll"></a>3.3分析hra33.dll</h2><p>从病毒资源中提取出hra33.dll文件，并分析。</p>
+<p><img src="/images/image-20210312001653033.png" alt="image-20210312001653033"></p>
+<h4 id="3-3-1-释放文件资源中的病毒"><a href="#3-3-1-释放文件资源中的病毒" class="headerlink" title="3.3.1 释放文件资源中的病毒"></a>3.3.1 释放文件资源中的病毒</h4><p><img src="/images/image-20210311200447297.png" alt="image-20210311200447297"></p>
+<h4 id="3-3-2-在临时文件夹下执行病毒"><a href="#3-3-2-在临时文件夹下执行病毒" class="headerlink" title="3.3.2 在临时文件夹下执行病毒"></a>3.3.2 在临时文件夹下执行病毒</h4><p><img src="/images/image-20210311200745306.png" alt="image-20210311200745306"></p>
+<h4 id="3-3-3-在含exe的文件目录下放入lpk-dll"><a href="#3-3-3-在含exe的文件目录下放入lpk-dll" class="headerlink" title="3.3.3 在含exe的文件目录下放入lpk.dll"></a>3.3.3 在含exe的文件目录下放入lpk.dll</h4><p><img src="/images/image-20210311201714334.png" alt="image-20210311201714334"></p>
+<p><img src="/images/image-20210311202225414.png" alt="image-20210311202225414"></p>
+<h4 id="3-3-4-伪造lpk-dll与系统lpk-dll对比"><a href="#3-3-4-伪造lpk-dll与系统lpk-dll对比" class="headerlink" title="3.3.4 伪造lpk.dll与系统lpk.dll对比"></a>3.3.4 伪造lpk.dll与系统lpk.dll对比</h4><p><img src="/images/image-20210312081644250.png" alt="image-20210312081644250"></p>
+<h2 id="3-4-分析小结"><a href="#3-4-分析小结" class="headerlink" title="3.4 分析小结"></a>3.4 分析小结</h2><p>通过分析可了解到本病毒程序是一个木马病毒。本病毒通过注册的服务执行主要的病毒行为。病毒运行后首先判断当前系统中是否注册了Ghijkl Nopqrstu Wxy服务，若已注册则启动服务执行病毒任务，若服务不存在则将自身复制到系统目录下创建服务并配置服务描述等信息。</p>
+<p>病毒执行后会释放在其资源中的pe文件hra33.dll，并再次将病毒更新到hra33.dll资源中。利用hra33.dll的加载再次执行病毒。为了隐藏自身，病毒在临时文件中执行，执行完后删除临时文件。病毒在本地的传播方式是通过lpk.dll劫持，由于windows2000开始微软强制操作系统的加载程序首先从应用程序目录中加载模块，只有当加载程序无法在应用程序目录中找到文件，才搜索其他目录。利用系统的这个特性，病毒伪造一个lpk.dll使程序加载替换原本应加载的系统的lpk.dll。病毒在运行后遍历目录在含有exe的文件夹下放入伪造的lpk.dll，并利用rar.exe对存在lpk.dll的压缩文件解压并替换其中的lpk.dll文件。当exe程序被执行时，便动态加载了被替换的lpk.dll程序，从而运行了病毒。在局域网中病毒通过IPC连接暴力破解弱口令在各个磁盘根目录和系统更目录下释放病毒并设置定时启动。最后创建三个线程用于连接三台远程服务器并接收远程指令执行如DDos攻击、用IE浏览器打开网页、弹窗、更新文件等。</p>
+<p><img src="/images/image-20210312000755305.png" alt="image-20210312000755305"></p>
+<h1 id="4-解决方案"><a href="#4-解决方案" class="headerlink" title="4. 解决方案"></a>4. 解决方案</h1><h2 id="4-1-提取特征，利用杀软查杀"><a href="#4-1-提取特征，利用杀软查杀" class="headerlink" title="4.1 提取特征，利用杀软查杀"></a>4.1 提取特征，利用杀软查杀</h2><p>可将样本的MD5、SHA1、CRC32等提取为病毒特征，同时也可将含可执行文件的文件夹下出现lpk.dll且大小与系统文件中的lpk.dll大小差距很大，可执行文件文件名为六个随机字符或各磁盘根目录下名为：glfd.exe以及系统目录下名为：NewArean.exe，且资源文件中含有PE文件等综合信息作为查杀依据。</p>
+<h2 id="4-2-查杀思路"><a href="#4-2-查杀思路" class="headerlink" title="4.2 查杀思路"></a>4.2 查杀思路</h2><p>1.断开网络</p>
+<p>2.结束病毒进程</p>
+<p>3.删除C:\Windows\下病毒文件</p>
+<p>4.删除各文件夹下lpk.dll</p>
+<p>5.删除注册表Ghijkl Nopqrstu Wxy服务</p>
+<p>6.将sbcq.f3322.org、520123.xyz、520520520.org加入黑名单</p>
+<p>7.删除glfd.exe、NewArean.exe文件并加强IPC口令强度。</p>
+<h1 id="分析总结"><a href="#分析总结" class="headerlink" title="分析总结"></a>分析总结</h1><p>​    </p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Silvia Lv</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/3601.exe/">http://example.com/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/3601.exe/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Altiora Peto</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/wannacry/"><img class="prev-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info"></div></div></a></div><div class="next-post pull-right"><a href="/2021/05/09/hello-world/"><img class="next-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Silvia Lv</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">背景知识</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86"><span class="toc-number">2.</span> <span class="toc-text">信息收集</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90"><span class="toc-number">3.</span> <span class="toc-text">行为分析</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E5%85%B7%E4%BD%93%E5%88%86%E6%9E%90"><span class="toc-number">4.</span> <span class="toc-text">3. 具体分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E5%88%86%E6%9E%903601-exe"><span class="toc-number">4.1.</span> <span class="toc-text">3.1 分析3601.exe</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-1-%E4%B8%BB%E5%87%BD%E6%95%B0"><span class="toc-number">4.1.1.</span> <span class="toc-text">3.1.1 主函数</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E5%88%86%E6%9E%90-yssbii-exe"><span class="toc-number">4.2.</span> <span class="toc-text">3.2 分析 yssbii.exe</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%88%86%E7%A6%BB%E5%87%BA%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%91%BD%E5%90%8D%E4%B8%BAhra33-dll"><span class="toc-number">4.2.0.1.</span> <span class="toc-text">1. 分离出资源文件命名为hra33.dll</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%B0%86%E7%97%85%E6%AF%92%E6%B7%BB%E5%8A%A0%E5%88%B0hra33-dll%E8%B5%84%E6%BA%90%E4%B8%AD"><span class="toc-number">4.2.0.2.</span> <span class="toc-text">2. 将病毒添加到hra33.dll资源中</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E5%8A%A0%E8%BD%BDhra33-dll"><span class="toc-number">4.2.0.3.</span> <span class="toc-text">3. 加载hra33.dll</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E5%88%9B%E5%BB%BA%E7%BA%BF%E7%A8%8B%E9%80%9A%E8%BF%87%E7%88%86%E7%A0%B4IPC%E5%BC%B1%E5%8F%A3%E4%BB%A4%E4%BC%A0%E6%92%AD%E7%97%85%E6%AF%92"><span class="toc-number">4.2.0.4.</span> <span class="toc-text">4. 创建线程通过爆破IPC弱口令传播病毒</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E5%88%9B%E5%BB%BA%E7%BA%BF%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%91%E9%80%81%E4%BF%A1%E6%81%AF%E5%B9%B6%E6%8E%A5%E6%94%B6%E5%91%BD%E4%BB%A4"><span class="toc-number">4.2.0.5.</span> <span class="toc-text">5. 创建线程连接远程服务器发送信息并接收命令</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3%E5%88%86%E6%9E%90hra33-dll"><span class="toc-number">4.3.</span> <span class="toc-text">3.3分析hra33.dll</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-1-%E9%87%8A%E6%94%BE%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E4%B8%AD%E7%9A%84%E7%97%85%E6%AF%92"><span class="toc-number">4.3.0.1.</span> <span class="toc-text">3.3.1 释放文件资源中的病毒</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-2-%E5%9C%A8%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E6%89%A7%E8%A1%8C%E7%97%85%E6%AF%92"><span class="toc-number">4.3.0.2.</span> <span class="toc-text">3.3.2 在临时文件夹下执行病毒</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-3-%E5%9C%A8%E5%90%ABexe%E7%9A%84%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%94%BE%E5%85%A5lpk-dll"><span class="toc-number">4.3.0.3.</span> <span class="toc-text">3.3.3 在含exe的文件目录下放入lpk.dll</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-4-%E4%BC%AA%E9%80%A0lpk-dll%E4%B8%8E%E7%B3%BB%E7%BB%9Flpk-dll%E5%AF%B9%E6%AF%94"><span class="toc-number">4.3.0.4.</span> <span class="toc-text">3.3.4 伪造lpk.dll与系统lpk.dll对比</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-4-%E5%88%86%E6%9E%90%E5%B0%8F%E7%BB%93"><span class="toc-number">4.4.</span> <span class="toc-text">3.4 分析小结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-number">5.</span> <span class="toc-text">4. 解决方案</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-%E6%8F%90%E5%8F%96%E7%89%B9%E5%BE%81%EF%BC%8C%E5%88%A9%E7%94%A8%E6%9D%80%E8%BD%AF%E6%9F%A5%E6%9D%80"><span class="toc-number">5.1.</span> <span class="toc-text">4.1 提取特征，利用杀软查杀</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-%E6%9F%A5%E6%9D%80%E6%80%9D%E8%B7%AF"><span class="toc-number">5.2.</span> <span class="toc-text">4.2 查杀思路</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93"><span class="toc-number">6.</span> <span class="toc-text">分析总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/05/09/xiongmao.exe/" title="无题"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2021/05/09/xiongmao.exe/" title="无题">无题</a><time datetime="2021-05-09T08:28:08.864Z" title="发表于 2021-05-09 16:28:08">2021-05-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/09/wannacry/" title="无题"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2021/05/09/wannacry/" title="无题">无题</a><time datetime="2021-05-09T08:28:08.863Z" title="发表于 2021-05-09 16:28:08">2021-05-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/09/3601.exe/" title="无题"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2021/05/09/3601.exe/" title="无题">无题</a><time datetime="2021-05-09T08:28:08.863Z" title="发表于 2021-05-09 16:28:08">2021-05-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/xiongmao.exe/" title="无题"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/xiongmao.exe/" title="无题">无题</a><time datetime="2021-05-09T08:27:59.003Z" title="发表于 2021-05-09 16:27:59">2021-05-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/wannacry/" title="无题"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2021/05/09/%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90/wannacry/" title="无题">无题</a><time datetime="2021-05-09T08:27:59.002Z" title="发表于 2021-05-09 16:27:59">2021-05-09</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Silvia Lv</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
